@@ -1,0 +1,82 @@
+* {
+	box-sizing:border-box;
+	position:relative;
+	margin: 0;
+}
+
+html, body {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	width: 100%;
+	background: #F2F2F2;
+}
+.img-cube {
+	width: 60px;
+	top: 15px;
+}
+main {
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	top:30px;
+	font-family: arial;
+}
+section {
+	padding:10px;
+	margin:0;
+	background: #FFF;
+	box-shadow: 2px 2px 5px #888;
+}
+.framework {
+	width: 65%;
+}
+.intersection {
+	width: 32%;
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+}
+.fayad-schmidt {
+	width: 28%;
+	top: 20px;
+	justify-content: space-around;
+	align-items: center;
+}
+img {
+	width: 100px;
+}
+.diference-library-framework {
+	width: 69%;
+	top: 20px;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+}
+.library-framework {
+	width: 100%;
+	top: 10px;
+	display: flex;
+
+	flex-direction: row;
+}
+.utility {
+	width: 50%;
+	top: 39px;
+}
+.example {
+	width: 25%;
+	top: 39px;
+}
+.img-exemplo {
+	width: 180px;
+}
+.font {
+	width: 20%;
+	top: 39px;
+}
